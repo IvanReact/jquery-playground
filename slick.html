@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Slick Example</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <!-- YOUR CSS!! -->
+    <link rel="stylesheet" type="text/css" href="./animations.css" />
+    <link rel="stylesheet" type="text/css" href="./slick.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  </head>
+  <body>
+    <h1 class="page-title">
+      Hi! I was made using HTML,
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LESS_Logo.svg/2560px-LESS_Logo.svg.png"
+        class="title-image"
+      />
+      &
+      <img
+        class="title-image-jquery"
+        src="https://www.joykal.com/wp-content/uploads/2019/09/jquery.png"
+      />
+    </h1>
+    <h1>SLICK.JS</h1>
+
+    <div class="slider-container">
+      <img
+        class="tech-image"
+        src="https://miro.medium.com/v2/resize:fit:400/1*aKWn6xdhyX7V1IupgXah4Q.png"
+      />
+      <div class="slider">
+        <div>
+          <img
+            src="https://www.pockettactics.com/wp-content/sites/pockettactics/2022/08/monkey-pokemon-9.jpg"
+            alt="Slide 1"
+          />
+        </div>
+        <div>
+          <img
+            src="https://www.pockettactics.com/wp-content/uploads/2022/08/monkey-pokemon-7.jpg"
+            alt="Slide 2"
+          />
+        </div>
+        <div>
+          <img
+            src="https://www.pockettactics.com/wp-content/uploads/2022/08/monkey-pokemon-4.jpg"
+            alt="Slide 3"
+          />
+        </div>
+        <div>
+          <img
+            src="https://www.pockettactics.com/wp-content/uploads/2022/08/monkey-pokemon-3.jpg"
+            alt="Slide 1"
+          />
+        </div>
+        <div>
+          <img
+            src="https://www.pockettactics.com/wp-content/uploads/2022/08/monkey-pokemon-2.jpg"
+            alt="Slide 2"
+          />
+        </div>
+        <div>
+          <img
+            src="https://sportshub.cbsistatic.com/i/2021/03/16/9575c7b4-42a5-4282-b257-1b9c5ed710d0/ash-passimian-1121729.jpg"
+            alt="Slide 3"
+          />
+        </div>
+      </div>
+    </div>
+
+    <h1>POPPER.JS</h1>
+
+    <div class="popper-container">
+      <div class="tooltip-container">
+        <button id="button" aria-describedby="tooltip">I'm a button</button>
+        <div id="tooltip" role="tooltip">
+          I'm a tooltip for the button below, <br />when clicked, magic will
+          happen! 💖
+          <div id="arrow" data-popper-arrow></div>
+        </div>
+      </div>
+
+      <img
+        class="tech-image"
+        src="https://camo.githubusercontent.com/c497d737be117ccc60b006cb2b728370313548a0b5ca734176160980884d069a/68747470733a2f2f63646e2e7261776769742e636f6d2f526f62696e434b2f7675652d706f707065722f34343331653463632f646f632f6c6f676f2e706e67"
+      />
+    </div>
+
+    <h1>EMERGENCE.JS</h1>
+
+    <div class="emergence-container">
+      <div class="element" data-emergence="hidden"></div>
+      <div class="element2" data-emergence="hidden"></div>
+      <div class="element3" data-emergence="hidden"></div>
+    </div>
+
+    <h1>PAROLLER.JS</h1>
+
+    <div class="background background5">background 5</div>
+    <div class="background background1">background 1</div>
+    <div class="background background2">background 2</div>
+    <div class="background background4">background 4</div>
+    <div class="background background3">background 3</div>
+
+    <h1>GSAP</h1>
+
+    <div class="gsap-container">
+      <img
+        class="image-logo"
+        src="images/gsap.png"
+        alt="GreenSock superhero logo"
+      />
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/emergence.js/1.1.2/emergence.min.js"
+      integrity="sha512-aPFnOs41a2i9gdyHURQgYmgGlrXbi2I2vMczBBo9OGnkKDbcBsV6yEespKWqX+MP/VXW8iSspdp+mulRmmW6hg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/paroller.js/1.4.1/jquery.paroller.min.js"
+      integrity="sha512-jYedLgTWxBXtDBdGhnUgCgbgQ5j450R2LhxXk1G+pBcbaARaEC/qsrIhOtqAAiY7UBylc6bVGH6EFR10RNBXuQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/PixiPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script> -->
+
+    <script src="./slick.js" type="text/javascript"></script>
+  </body>
+</html>
